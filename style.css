@@ -1,0 +1,122 @@
+body
+{
+    background-image: url(foto/tumblr_nvxwzmKIbW1r4rv9co5_500.png);
+    text-align: center;
+}
+
+#wrapper
+{
+    background-color: gray;
+    /*background-color: #421f61;*/
+    width: 810px ;
+    margin:auto;
+    border-radius: 5px;
+}
+img
+{
+    margin: 2px;
+    border-radius: 10px
+}
+
+#splatterThumb
+{
+    width: 195px;
+    height: 190px; 
+}
+
+#snorkelThumb
+{
+    width: 195px;
+    height: 190px;
+}
+
+#vestThumb
+{
+    width: 195px;
+    height: 190px;
+}
+
+#redThumb
+{
+    width: 195px;
+    height: 190px;
+}
+
+
+
+.modaal-venster
+{
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: auto;
+	opacity: 400ms ease-in;
+	transition: opacity 400ms ease-in;
+}
+
+.sluit-knop
+{
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 400px;
+	text-align: center;
+	top: 20px;
+	width: 24px;
+	border-radius: 12px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.sluit-knop:hover
+{
+    background: #ff0000; 
+    cursor: pointer;
+}
+
+.modaal-inhoud
+{
+    margin-left: 360px;
+    
+}
+
+#splatter
+{
+    margin-top: 20px;
+	padding: 20px 20px 10px 20px;
+	border-radius: 30px;
+	background: linear-gradient(#1d305d, #165945);
+    color: cornflowerblue;
+}
+
+#snorkel
+{
+    margin-top: 20px;
+	padding: 20px 20px 10px 20px;
+	border-radius: 10px;
+	background: linear-gradient(#1d305d, #165945);
+    color: cornflowerblue;
+}
+
+#ves
+{
+
+	margin-top: 20px;
+	padding: 20px 20px 10px 20px;
+	border-radius: 10px;
+	background: linear-gradient(#1d305d, #165945);
+    color: cornflowerblue;
+}
+
+#red
+{
+
+	margin-top: 20px;
+	padding: 20px 20px 10px 20px;
+	border-radius: 10px;
+	background: linear-gradient(#1d305d, #165945);
+    color: cornflowerblue;
+}
